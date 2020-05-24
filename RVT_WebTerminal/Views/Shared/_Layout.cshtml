@@ -1,0 +1,96 @@
+﻿
+@{
+    Layout = null;
+    ViewData["Title"] = "Index";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SmartShop_T24_7</title>
+    <link rel="stylesheet" href="~/CSS/main.css" />
+    <link rel="stylesheet" href="~/CSS/bootstrap.css" />
+
+</head>
+<body>
+    <nav class="site-header sticky-top py-1">
+        <div class="container d-flex flex-column flex-md-row justify-content-between">
+            <a class="py-2" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mx-auto" focusable="false" role="img"><title>Product</title><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
+            </a>
+            <a class="py-2 d-none d-md-inline-block" href="#">О компании</a>
+            <a class="py-2 d-none d-md-inline-block" href="#">Продукция</a>
+            <a class="py-2 d-none d-md-inline-block" href="#">Autorizare</a>
+            <a class="py-2 d-none d-md-inline-block" href="#">Inregistrare</a>
+
+
+        </div>
+  </nav>
+        <div id="modal-placeholder">@*@Html.Partial("_AuthorizePartial")*@</div>
+        @RenderBody();
+
+
+        <footer class="navbar fixed-bottom">
+            <div class="row">
+                <div class="col-12 col-md">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mb-2" focusable="false" role="img"><title>Product</title><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
+                    <small class="d-block mb-3 text-muted">&copy; 2019 </small>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Тадам</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">1</a></li>
+                        <li><a class="text-muted" href="#">2</a></li>
+                        <li><a class="text-muted" href="#">3</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>хоухоу</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">1</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>кекекек</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">1</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>о нас</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">1</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                crossorigin="anonymous"></script>
+
+
+        @RenderSection("Scripts", required: false)
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"
+                integrity="sha256-F6h55Qw6sweK+t7SiOJX+2bpSAa3b/fnlrVCJvmEj1A="
+                crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.9/jquery.validate.unobtrusive.min.js"
+                integrity="sha256-paoxpct33kY9fpQlvgC8IokjGq8iqYaVFawgFPg8oz0="
+                crossorigin="anonymous"></script>
+        
+</body>
+</html>

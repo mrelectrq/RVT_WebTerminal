@@ -1,0 +1,16 @@
+D:\C#_projects\Remote_Vote_System\RVT_Console_Tests\bin\Debug\netcoreapp3.1\RVT_Console_Tests.exe
+D:\C#_projects\Remote_Vote_System\RVT_Console_Tests\bin\Debug\netcoreapp3.1\RVT_Console_Tests.deps.json
+D:\C#_projects\Remote_Vote_System\RVT_Console_Tests\bin\Debug\netcoreapp3.1\RVT_Console_Tests.runtimeconfig.json
+D:\C#_projects\Remote_Vote_System\RVT_Console_Tests\bin\Debug\netcoreapp3.1\RVT_Console_Tests.runtimeconfig.dev.json
+D:\C#_projects\Remote_Vote_System\RVT_Console_Tests\bin\Debug\netcoreapp3.1\RVT_Console_Tests.dll
+D:\C#_projects\Remote_Vote_System\RVT_Console_Tests\bin\Debug\netcoreapp3.1\RVT_Console_Tests.pdb
+D:\C#_projects\Remote_Vote_System\RVT_Console_Tests\obj\Debug\netcoreapp3.1\RVT_Console_Tests.csproj.CoreCompileInputs.cache
+D:\C#_projects\Remote_Vote_System\RVT_Console_Tests\obj\Debug\netcoreapp3.1\RVT_Console_Tests.AssemblyInfoInputs.cache
+D:\C#_projects\Remote_Vote_System\RVT_Console_Tests\obj\Debug\netcoreapp3.1\RVT_Console_Tests.AssemblyInfo.cs
+D:\C#_projects\Remote_Vote_System\RVT_Console_Tests\obj\Debug\netcoreapp3.1\RVT_Console_Tests.dll
+D:\C#_projects\Remote_Vote_System\RVT_Console_Tests\obj\Debug\netcoreapp3.1\RVT_Console_Tests.pdb
+D:\C#_projects\Remote_Vote_System\RVT_Console_Tests\obj\Debug\netcoreapp3.1\RVT_Console_Tests.genruntimeconfig.cache
+D:\C#_projects\Remote_Vote_System\RVT_Console_Tests\bin\Debug\netcoreapp3.1\RVT_Block_lib.dll
+D:\C#_projects\Remote_Vote_System\RVT_Console_Tests\bin\Debug\netcoreapp3.1\RVT_Block_lib.pdb
+D:\C#_projects\Remote_Vote_System\RVT_Console_Tests\obj\Debug\netcoreapp3.1\RVT_Console_Tests.csprojAssemblyReference.cache
+D:\C#_projects\Remote_Vote_System\RVT_Console_Tests\obj\Debug\netcoreapp3.1\RVT_Console_Tests.csproj.CopyComplete

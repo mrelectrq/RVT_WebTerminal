@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "RVT_Console_Tests/1.0.0": {
+        "dependencies": {
+          "RVT_Block_lib": "1.0.0"
+        },
+        "runtime": {
+          "RVT_Console_Tests.dll": {}
+        }
+      },
+      "RVT_Block_lib/1.0.0": {
+        "runtime": {
+          "RVT_Block_lib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RVT_Console_Tests/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RVT_Block_lib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

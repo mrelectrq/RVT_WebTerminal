@@ -1,0 +1,278 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\C#_projects\\RVT_WebTerminal\\RVT_WebTerminalTests\\RVT_WebTerminalTests.csproj": {}
+  },
+  "projects": {
+    "D:\\C#_projects\\RVT_WebTerminal\\RVT_Block_lib\\RVT_Block_lib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\C#_projects\\RVT_WebTerminal\\RVT_Block_lib\\RVT_Block_lib.csproj",
+        "projectName": "RVT_Block_lib",
+        "projectPath": "D:\\C#_projects\\RVT_WebTerminal\\RVT_Block_lib\\RVT_Block_lib.csproj",
+        "packagesPath": "C:\\Users\\MyPC\\.nuget\\packages\\",
+        "outputPath": "D:\\C#_projects\\RVT_WebTerminal\\RVT_Block_lib\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MyPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\C#_projects\\RVT_WebTerminal\\RVT_WebTerminalTests\\RVT_WebTerminalTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\C#_projects\\RVT_WebTerminal\\RVT_WebTerminalTests\\RVT_WebTerminalTests.csproj",
+        "projectName": "RVT_WebTerminalTests",
+        "projectPath": "D:\\C#_projects\\RVT_WebTerminal\\RVT_WebTerminalTests\\RVT_WebTerminalTests.csproj",
+        "packagesPath": "C:\\Users\\MyPC\\.nuget\\packages\\",
+        "outputPath": "D:\\C#_projects\\RVT_WebTerminal\\RVT_WebTerminalTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MyPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\C#_projects\\RVT_WebTerminal\\RVT_WebTerminal\\RVT_WebTerminal.csproj": {
+                "projectPath": "D:\\C#_projects\\RVT_WebTerminal\\RVT_WebTerminal\\RVT_WebTerminal.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\C#_projects\\RVT_WebTerminal\\RVT_WebTerminal\\RVT_WebTerminal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\C#_projects\\RVT_WebTerminal\\RVT_WebTerminal\\RVT_WebTerminal.csproj",
+        "projectName": "RVT_WebTerminal",
+        "projectPath": "D:\\C#_projects\\RVT_WebTerminal\\RVT_WebTerminal\\RVT_WebTerminal.csproj",
+        "packagesPath": "C:\\Users\\MyPC\\.nuget\\packages\\",
+        "outputPath": "D:\\C#_projects\\RVT_WebTerminal\\RVT_WebTerminal\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MyPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\C#_projects\\RVT_WebTerminal\\RVT_W_BusinessLayer\\RVT_W_BusinessLayer.csproj": {
+                "projectPath": "D:\\C#_projects\\RVT_WebTerminal\\RVT_W_BusinessLayer\\RVT_W_BusinessLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Automapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\C#_projects\\RVT_WebTerminal\\RVT_W_BusinessLayer\\RVT_W_BusinessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\C#_projects\\RVT_WebTerminal\\RVT_W_BusinessLayer\\RVT_W_BusinessLayer.csproj",
+        "projectName": "RVT_W_BusinessLayer",
+        "projectPath": "D:\\C#_projects\\RVT_WebTerminal\\RVT_W_BusinessLayer\\RVT_W_BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\MyPC\\.nuget\\packages\\",
+        "outputPath": "D:\\C#_projects\\RVT_WebTerminal\\RVT_W_BusinessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MyPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\C#_projects\\RVT_WebTerminal\\RVT_Block_lib\\RVT_Block_lib.csproj": {
+                "projectPath": "D:\\C#_projects\\RVT_WebTerminal\\RVT_Block_lib\\RVT_Block_lib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
