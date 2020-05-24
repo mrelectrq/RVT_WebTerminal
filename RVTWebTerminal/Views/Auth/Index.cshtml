@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Auth.cshtml";
+}
+@model LoginModel
+@Html.ValidationSummary(true)
+@using (Html.BeginForm("Index", "Login", FormMethod.Post, new { @id = "LoginForm" }))
+{
+    <div class="limiter">
+        <div class="container-login100" style="background-image: url('~/Login/images/img-01.jpg');">
+            <div class="wrap-login100  p-b-30">
+                <center><img src="~/Index/images/RVTLogo.png" alt=""></center>
+                <form class="login100-form validate-form">
+                    <span class="login100-form-title p-b-20">
+                        Login
+                    </span>
+                    @Html.AntiForgeryToken()
+                    <div class="wrap-input100 validate-input m-b-10" data-validate="IDNP is required">
+                        @Html.TextBoxFor(m => m.IDNP, new { placeholder = "IDNP", @class = "input100", @type = "IDNP" })
+                        <span class="focus-input100"></span>
+                        <span class="symbol-input100">
+                            <i class="fa fa-user"></i>
+                        </span>
+                    </div>
+
+                    <div class="wrap-input100 validate-input m-b-10" data-validate="Password is required">
+                        @Html.TextBoxFor(m => m.VnPassword, new { placeholder = "Password", @class = "input100", @type = "Password" })
+                        <span class="focus-input100"></span>
+                        <span class="symbol-input100">
+                            <i class="fa fa-lock"></i>
+                        </span>
+                    </div>
+
+                    <div class="container-login100-form-btn p-t-10">
+                        <button class="login100-form-btn" value="Login">
+                            Login
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+}
+

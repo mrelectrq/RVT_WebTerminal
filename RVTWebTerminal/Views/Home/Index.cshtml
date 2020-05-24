@@ -1,0 +1,111 @@
+﻿
+@{
+    Layout = null;
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@ViewData["Title"]</title>
+    <meta name="description" content="">
+    <link rel="canonical" href="https://www.nameagency.com">
+    <meta property="og:url" content="https://www.nameagency.com">
+    <link rel="stylesheet" href="~/Index/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    @Html.Partial("_Navi")
+    <section class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="promo-title">RVT Project</p>
+                    <p class="join-title">We are developing blockchain technology.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="~/Index/images/logo.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>  
+        <!--- Background wave Hero ---->
+        <img src="~/Index/images/ground.png" class="bottom-img" alt="">
+    </section>
+
+    <section id="block">
+        <div class="container text-center">
+            <h3 class="title text-center">BlockChain</h3>
+            <div class="row text-center">
+                <div class="col-md-4 services">
+                    <img src="svg/undraw_website_setup_5hr2.svg" class="service-img" alt="">
+                    <h4>Security</h4>
+                    <p>
+                        Once every block is sealed cryptographically, it is impossible to copy, delete or edit, ensuring the immutability of the digital ledger. Because of the very nature of decentralisation of networks, there can never be central points of error or failure within the system.
+                    </p>
+                </div>
+                <div class="col-md-4 services">
+                    <img src="svg/branding.svg" class="service-img" alt="">
+                    <h4>Open source</h4>
+                    <p>
+                        Blockchain being open source software, there are reduced entry barriers that lead to stronger developer base and enhanced transparency.
+                    </p>
+                </div>
+                <div class="col-md-4 services">
+                    <img src="svg/ads.svg" class="service-img" alt="">
+                    <h4>Trust</h4>
+                    <p>
+                        As the participant’s identity remains confidential, everyone can deal freely with another through the secure network. Complete anonymity and transaction security are among the top advantages of blockchain technology.
+                    </p>
+                </div>
+                <div class="col-md-4 services">
+                    <img src="svg/undraw_Savings_dwkw.svg" class="service-img" alt="">
+                    <h4>Transparency</h4>
+                    <p>
+                        It is possible for users to verify and track transactions in the public, decentralised ledger. Any individual can view the entire record of transactions. Besides, the software, being open source, any alteration of data is incredibly difficult.
+                    </p>
+                </div>
+                <div class="col-md-4 services">
+                    <img src="svg/social.svg" class="service-img" alt="">
+                    <h4>Ease of use</h4>
+                    <p>
+                        With competent integration capabilities, blockchain has the advantage of being easy to use and fast.
+                    </p>
+                </div>
+                <div class="col-md-4 services">
+                    <img src="svg/undraw_wireframing_nxyi.svg" class="service-img" alt="">
+                    <h4>Decentralised</h4>
+                    <p>
+                        As one of the most interesting aspects of the blockchain, decentralisation. Instead of being stored in any one single point, blockchain system is entirely decentralised, which means that it is not possible for an overarching authority to advance its own agenda and control the network.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer ------>
+    <section id="footer">
+        <div class="container">
+
+            <div class="col-md-6 ">
+                <p class="copyright">Copyright © 2020. All rights reserved</p>
+            </div>
+
+        </div>
+        <br>
+        </div>
+    </section>
+    <!--- Smooth Scroll js ---------->
+    <script type="text/javascript" src="~/Index/js/smooth-scroll.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+</body>
+
+</html>
+
